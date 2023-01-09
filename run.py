@@ -16,4 +16,43 @@ inventory = SHEET.worksheet('inventory')
 
 data = inventory.get_all_values()
 
-print(data)
+
+
+def role_manager():
+    print("Congrats you are a manager")
+
+
+def role_supervisor():
+    print("Congrats you are a supervisor")
+
+
+def role_assisstant():
+    print("Congrats you are a shop assisstant")
+
+
+def add_stock():
+    print("stock added")
+
+def view_stock():
+    print(data)
+
+def edit_stock():
+    print("What item would you like to edit?")
+
+
+def remove_stock():
+    print("What item would you like to remove")
+
+role_manager()
+
+role_supervisor()
+
+role_assisstant()
+
+add_stock()
+
+view_stock()
+
+edit_stock()
+
+remove_stock()
